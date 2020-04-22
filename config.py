@@ -7,8 +7,8 @@ class Config(object):
     WIKI_INFO_URL = os.environ.get('WIKI_INFO_URL', 'https://wiki.lineageos.org/devices/{device}')
     STATUS_URL = os.environ.get('STATUS_URL', '#')
 
-    UPSTREAM_URL = os.environ.get('UPSTREAM_URL', 'https://download.ods.ninja/Android/lineage/builds.json')
-    DOWNLOAD_BASE_URL = os.environ.get('DOWNLOAD_BASE_URL', 'https://download.ods.ninja/Android/lineage/')
+    UPSTREAM_URL = os.environ.get('UPSTREAM_URL', 'https://download.ods.ninja/Android/lineage/builds_prod.json')
+    DOWNLOAD_BASE_URL = os.environ.get('DOWNLOAD_BASE_URL', '')
     EXTRAS_BLOB = os.environ.get('EXTRAS_BLOB', 'extras.json')
 
     DEVICES_JSON_PATH = os.environ.get('DEVICES_JSON_PATH', 'devices.json')
